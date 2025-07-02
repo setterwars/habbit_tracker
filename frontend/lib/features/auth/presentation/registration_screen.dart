@@ -141,7 +141,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                         child: _isSubmitting
                             ? const CircularProgressIndicator(
                                 valueColor: AlwaysStoppedAnimation<Color>(
-                                  Colors.white,
+                                  Colors.green,
                                 ),
                               )
                             : const Text("Register"),
